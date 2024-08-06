@@ -2,20 +2,55 @@ body {
     font-family: Roboto;
 }
 
-.header {
+
+.header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding-left: 150px;
-    padding-right: 150px;
+    flex: 1 1 0;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
 .logo{
     font-size: 24px;
 }
 
+.upper {
+    display:flex;
+    background-color:#1F2937;
+    justify-content: space-between;
+    gap:70px;
+    padding-right:120px;
+    padding-left: 120px;
+    padding-top:20px;
+    padding-bottom:100px;
+    flex: 1 1 0;
+}
+
+.left{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.right {
+    display:flex;
+    align-items: center;
+}
+
+.text{
+    font-size: 18px;
+    color:#E5E7EB;
+
+}
+
+.headphones {
+    max-width:300px;
+}
 
 li {
     a:link {text-decoration: none};
@@ -23,12 +58,24 @@ li {
     font-size: 18px;
     list-style-type: none;
     display: inline;
-    margin:6px;
-    
-
+    margin:8px;
 }
 
+h1 {
+    font-weight:600px;
+    font-size: 48px;
+    color: #F9FAF8;
+    margin-bottom: 0px;
+}
 
-.cat {
-    height: 250px;
+button {
+    background-color: #3882F6;
+    color:#E5E7EB;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size:18px;
+    padding: 6px;
+    width: 140px;
+    margin:8px;
+    margin-left:0px;
 }

@@ -2,6 +2,9 @@ body {
     font-family: Roboto;
 }
 
+img {
+    max-width:400px;
+}
 
 .header{
     display: flex;
@@ -13,7 +16,7 @@ body {
     padding-left: 120px;
     padding-right: 120px;
     min-width: 400px;
-    width:800px;
+    width:1000px;
 }
 
 .logo{
@@ -24,14 +27,14 @@ body {
     display:flex;
     background-color:#1F2937;
     justify-content: space-between;
-    gap:70px;
+    gap:50px;
     padding-right:120px;
     padding-left: 120px;
     padding-top:20px;
     padding-bottom:100px;
     flex: 1 1 0;
     min-width: 400px;
-    width:800px;
+    width:1000px;
 }
 
 .left{
@@ -53,7 +56,7 @@ body {
 }
 
 .headphones {
-    max-width:300px;
+    max-width:400px;
 }
 
 li {
@@ -83,3 +86,51 @@ button {
     margin:8px;
     margin-left:0px;
 }
+
+
+
+
+.second {
+    display:flex;
+    flex-direction: column;
+    width:1000px;
+    padding-left: 120px;
+    padding-right: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    display:flex;
+    justify-content: center;
+    width:auto;
+    font-size: 36px;
+    font-weight: 600px;
+    color:#1F2937
+}
+
+
+.images {
+    display:flex;
+    justify-content: space-between;
+    gap:10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+
+.cat,.coffee,.sunset,.tea{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ic, .ico, .is, .it {
+    border:4px solid #3882f6;
+    border-radius: 10px;
+    max-height: 150px;
+    flex:1;
+}
+

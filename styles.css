@@ -16,7 +16,6 @@ img {
     padding-left: 120px;
     padding-right: 120px;
     min-width: 400px;
-    width:1000px;
 }
 
 .logo{
@@ -27,14 +26,12 @@ img {
     display:flex;
     background-color:#1F2937;
     justify-content: space-between;
-    gap:50px;
     padding-right:120px;
     padding-left: 120px;
     padding-top:20px;
     padding-bottom:100px;
     flex: 1 1 0;
     min-width: 400px;
-    width:1000px;
 }
 
 .left{
@@ -75,7 +72,7 @@ h1 {
     margin-bottom: 0px;
 }
 
-button {
+.sign-top {
     background-color: #3882F6;
     color:#E5E7EB;
     border-radius: 10px;
@@ -93,11 +90,11 @@ button {
 .second {
     display:flex;
     flex-direction: column;
-    width:1000px;
-    padding-left: 120px;
-    padding-right: 120px;
     justify-content: center;
     align-items: center;
+    flex: 1 1 0;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
 }
 
 .info{
@@ -113,9 +110,11 @@ button {
 .images {
     display:flex;
     justify-content: space-between;
-    gap:10px;
-    padding-left: 40px;
-    padding-right: 40px;
+    min-width: auto;
+    flex: 1 1 200px;
+    gap:20px;
+    padding-left: 200px;
+    padding-right: 200px;
     
 }
 
@@ -125,6 +124,8 @@ button {
     justify-content: center;
     align-items: center;
     text-align: center;
+    flex: 1 1 250px;
+    flex-wrap: wrap;
 }
 
 .ic, .ico, .is, .it {
@@ -132,5 +133,44 @@ button {
     border-radius: 10px;
     max-height: 150px;
     flex:1;
+
 }
 
+.ht,.ct,.st,.tt {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.third{
+    background:#E5E7EB;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    padding:8px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    flex: 1 1 100%;
+}
+
+.reference{
+    display:flex;
+    flex-direction: row;
+    flex: 1 1 100%;
+    justify-content: end;
+    margin-top: 0px;
+    padding-right:60px;
+}

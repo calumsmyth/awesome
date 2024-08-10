@@ -26,6 +26,7 @@ img {
     display:flex;
     background-color:#1F2937;
     justify-content: space-between;
+    gap: 40px;
     padding-right:120px;
     padding-left: 120px;
     padding-top:20px;
@@ -112,7 +113,7 @@ h1 {
     justify-content: space-between;
     min-width: auto;
     flex: 1 1 200px;
-    gap:20px;
+    gap:40px;
     padding-left: 200px;
     padding-right: 200px;
     
@@ -173,4 +174,66 @@ h1 {
     justify-content: end;
     margin-top: 0px;
     padding-right:60px;
+}
+
+
+.fourth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.box{
+    display: flex;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 10px;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left:30px;
+    padding-right: 30px;
+    margin-left:200px;
+    margin-right: 200px;
+    flex: 1 1 0;
+
+}
+
+.bl{
+    display: flex;
+    flex-direction: column;
+}
+
+.call{
+    padding:4px;
+    margin-bottom: 0px;
+
+}
+
+.sign{
+    margin-top: 0px;
+    padding:4px;
+
+}
+
+.br {
+    display: flex;
+    align-items: center;
+
+}
+
+.register{
+    border-radius: 10px;
+    background-color: #3882F6;
+    color:#E5E7EB;
+    font-size: 16px;
+    font-weight: bold;
+    border:solid #E5E7EB 2px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 120px;
 }

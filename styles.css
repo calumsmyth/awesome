@@ -19,8 +19,6 @@ img {
     background-color: #1F2937;
     color: #F9FAF8;
     flex: 1 1 0;
-    /*padding-left: 120px;
-    padding-right: 120px;*/
     min-width: 400px;
 }
 
@@ -33,8 +31,6 @@ img {
     background-color:#1F2937;
     justify-content: space-between;
     gap: 40px;
-    /*padding-right:120px;
-    padding-left: 120px;*/
     padding-top:20px;
     padding-bottom:100px;
     flex: 1 1 0;
@@ -122,8 +118,6 @@ h1 {
     min-width: auto;
     flex: 1 1 200px;
     gap:40px;
-    /*padding-left: 200px;
-    padding-right: 200px;*/
     
 }
 
@@ -158,8 +152,6 @@ h1 {
     justify-content: center; 
     padding-top: 50px;
     padding-bottom: 50px;
-   /* padding-left: 200px;
-    padding-right: 200px;*/
 }
 
 .quote{
